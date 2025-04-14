@@ -48,6 +48,12 @@ A Java implementation of a scratch card game that generates game matrices, calcu
 
 **Valid Command**:
 ```bash
+build: mvn clean install
+
+jar: scratch-game-java-1.0-SNAPSHOT-jar-with-dependencies.jar
+
+config: you might need the full path of the config.json file
+
 java -jar target/scratch-game-1.0.jar \
   --config .../config.json \
   --betting-amount 100
